@@ -2,7 +2,7 @@
 layout: post
 title:  "Reading Text Data and Plotting in Julia"
 date:   2018-05-17 12:25:00 -0700
-categories: [posts, update]
+categories: [post, update]
 ---
 
 Reading data into and out of Julia has been the number one pain point for me. MATLAB (and by extension,
@@ -12,6 +12,8 @@ Octave) makes it very easy. Reading in your text based numeric data is as simple
 data = load('filename');
 {% endhighlight %}
 
+Most options for reading in data in Julia [were horrifying]\
+    (https://en.wikibooks.org/wiki/Introducing_Julia/Working_with_text_files). Fortunately, 
 Stack Overflow finally turned up an easy answer. It's:
 
 {% highlight julia %}
