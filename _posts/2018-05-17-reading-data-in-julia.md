@@ -5,7 +5,7 @@ date:   2018-05-17 12:25:00 -0700
 categories: [posts, update]
 ---
 
-Reading data into and out of Julia has been the number one pain point for me. MATLAB (and by extent,
+Reading data into and out of Julia has been the number one pain point for me. MATLAB (and by extension,
 Octave) makes it very easy. Reading in your text based numeric data is as simple as
 
 {% highlight matlab %}
