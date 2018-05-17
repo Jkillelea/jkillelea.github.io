@@ -35,7 +35,9 @@ At the end of the day, we do get a nice plot in the browser:
 
 ![plot]({{ "/assets/2018-05-17/humidity.png" }})
 
-This is real data from this morning. I took a shower while running a temperature and humidity sensor
-in the room - details on that to come. You can see the spike where I showered and then, as the day warmed up,
-the humidity in the room rose further. Humidity is sampled about every other second, so this represents a few 
-hours of data.
+This is real data from this morning. I took a shower while running a temperature 
+and humidity sensor in the room - details on that to come. You can see the spike 
+where I showered and then, as the day warmed up, the humidity in the room rose 
+further. Once I opened the windows, the room dried out. Humidity is sampled about 
+every other second, so this represents a few hours of data.
+
