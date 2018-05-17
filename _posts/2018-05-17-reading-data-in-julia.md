@@ -12,8 +12,7 @@ Octave) makes it very easy. Reading in your text based numeric data is as simple
 data = load('filename');
 {% endhighlight %}
 
-Most options for reading in data in Julia [were horrifying]\
-    (https://en.wikibooks.org/wiki/Introducing_Julia/Working_with_text_files). Fortunately, 
+Most options for reading in data in Julia [were horrifying](https://en.wikibooks.org/wiki/Introducing_Julia/Working_with_text_files). Fortunately, 
 Stack Overflow finally turned up an easy answer. It's:
 
 {% highlight julia %}
