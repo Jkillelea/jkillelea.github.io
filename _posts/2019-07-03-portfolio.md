@@ -17,6 +17,13 @@ As part of a group project, I designed a STOL cargo plane called the Twin Sea Li
 
 - [Report 4]({{ "/assets/portfolio/Reports/ac_design4.pdf" }})
 
+
+## Senior Projects Notebook Supplement
+
+For Senior Projects we were issued paper notebooks, but most of my work was done on computers. I compiled the most relevant digital work into a printout that I turned in along aside my regular notebook. **This is a good summary of my work over the past year**.
+
+- [Notebook Supplement]({{ "/assets/portfolio/Reports/notebook_supplement.pdf" }})
+
 ## Senior Projects PCBs
 
 ### Thermistor ADC
