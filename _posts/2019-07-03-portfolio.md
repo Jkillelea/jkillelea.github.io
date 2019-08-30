@@ -36,6 +36,8 @@ This board ran up to 40 individual NTC thermistors using ADC128 analog to digita
 
 - [Measurement Uncertainty]({{ "/assets/portfolio/Reports/thermistor_err.pdf" }})
 
+- [ADC Firmware](https://github.com/Jkillelea/adc128)
+
 ### Heater Driver
 
 This board ran 12 PWM channels to heat power resistors in order to create an arbitrary thermal profile that we could then analyze using thermal cameras. This board uses a PCA9865 PWM controller and a handful of MOSFETs to accomplish this. A large P-MOSFET was used for reverse polarity protection, in case someone tried to plug the power in backwards.
@@ -43,6 +45,8 @@ This board ran 12 PWM channels to heat power resistors in order to create an arb
 - [Schematic]({{ "/assets/portfolio/Electronics Schematics and Renders/heater_driver_multichannel.pdf" }})
 
 - [Board Render]({{ "/assets/portfolio/Electronics Schematics and Renders/heater_driver_pcb.jpg" }})
+
+- [PWM Driver Firmware](https://github.com/Jkillelea/pca9865)
 
 ### Raspberry Pi Breakout Board
 
@@ -53,6 +57,10 @@ Our Raspberry Pi needed to operate two FLIR Lepton thermal cameras. Each of thos
 - [Board Render]({{ "/assets/portfolio/Electronics Schematics and Renders/pi-pcb-render.jpg" }})
 
 - [Assembled]({{ "/assets/portfolio/Electronics Schematics and Renders/pi-pcb-assembled.jpg" }})
+
+- [ADC Firmware](https://github.com/Jkillelea/adc128)
+
+- [PWM Driver Firmware](https://github.com/Jkillelea/pca9865)
 
 ## Software
 
