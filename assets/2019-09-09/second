@@ -1,0 +1,112 @@
+Resetting board...HELO
+CPUI
+L1CI
+HELO
+CPUI
+L1CI
+DRAM
+----
+PHYS
+ZQDN
+PHYE
+DINT
+LASY
+USYN
+MSYN
+LMBE
+PASS
+----
+ZBSS
+CODE
+DATA
+L12F
+MAIN
+NAN0
+BTam
+0001
+NAN9
+NAN3
+RFS0
+NAN5
+
+
+CFE version 1.0.38-112.14 for BCM96362 (32bit,SP,BE)
+Build Date: 2011年 12月 21日 星期三 18:16:05 CST (sunny@localhost)
+Copyright (C) 2000-2011 Broadcom Corporation.
+
+NAND flash device: name <not identified>, id 0x2075 block 16KB size 32768KB
+External switch id = 53125 
+SC Debug: Setting RGMII TX_CLK DELAY at SWITCH IMP PORT!
+SC Debug: Setting RGMII RX_CLK DELAY at SWITCH IMP PORT!
+Chip ID: BCM6362B0, MIPS: 400MHz, DDR: 333MHz, Bus: 166MHz
+Main Thread: TP0
+Memory Test Passed
+Total Memory: 67108864 bytes (64MB)
+Boot Address: 0xb8000000
+
+Board IP address                  : 192.168.1.1:ffffff00  
+Host IP address                   : 192.168.1.100  
+Gateway IP address                :   
+Run from flash/host (f/h)         : f  
+Default host run file name        : vmlinux  
+Default host flash file name      : bcm963xx_fs_kernel  
+Boot delay (0-9 seconds)          : 1  
+Board Id (0-5)                    : 96362ADVN2xh  
+Number of MAC Addresses (1-32)    : 11  
+Base MAC Address                  : 28:c6:8e:61:ff:50  
+PSI Size (1-64) KBytes            : 24  
+Enable Backup PSI [0|1]           : 0  
+System Log Size (0-256) KBytes    : 0  
+Main Thread Number [0|1]          : 0  
+
+*** Press any key to stop auto run (1 seconds) ***
+Auto run second count down: 1
+web info: Waiting for connection on socket 0.␛[J
+CFE> 
+CFE> 
+CFE> 
+CFE> 
+CFE> 
+CFE> 
+CFE> 
+CFE> 
+CFE> 
+CFE> 
+CFE> 
+CFE> 
+CFE> 
+CFE> 
+CFE> help
+Available commands:
+
+sc_http             Sercomm http Upgrade Mode
+sc_ramtest          SC Ram test Command
+sc_tftp             sc tftp
+sc_swreg            SC external switch reg operation api
+sc_phyreg           SC phy reg operation api
+sc_erase_force      SC force erase function, no matter if the block is OK or not
+sc_init_marker      SC init clean marker in spare by given range
+sc_led              SC LED Debug command
+sc_gpio             SC GPIO Debug command
+sc_nand_bad         Dump NAND Flash Block is bad or not
+sc_flash_map        Dump NAND Flash Map defined in NVRAM
+sc_lp               SC LoopBack Sample test Command
+sc_upgrade          Sercomm Upgrade Mode
+sc_nand_dump_oob    Dump NAND Flash OOB area
+sc_nand_dump        Dump NAND Flash Content
+sm                  Set memory or registers.
+dm                  Dump memory or registers.
+w                   Write the whole image start from beginning of the flash
+e                   Erase NAND flash
+r                   Run program from flash image or from host depend on [f/h] flag
+p                   Print boot line and board parameter info
+c                   Change booline parameters
+i                   Erase persistent storage data
+a                   Change board AFE ID
+b                   Change board parameters
+reset               Reset the board
+help                Obtain help for CFE commands
+
+For more information about a command, enter 'help command-name'
+*** command status = 0
+CFE> 
